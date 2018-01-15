@@ -1,0 +1,23 @@
+{
+    "name": "jpaylor/bt-mydonate-php-scraper",
+    "description": "A very basic PHP scraper for obtaining fundraising totals from BT MyDonate fundraising pages",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jonny Paylor",
+            "email": "j.paylor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^3.4",
+        "symfony/css-selector": "^3.4",
+        "rtheunissen/guzzle-log-middleware": "^0.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "JPaylor\\BTMyDonate\\": "src/"
+        }
+    }
+}
